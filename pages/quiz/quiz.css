@@ -57,11 +57,26 @@ header{
     gap: 16px;
 }
 .assunto_icone{
-    background: var(--bg-Acessibilidade);
     width: 40px;
     height: 40px;
     padding: 5px;
     border-radius: 5px;
+}
+
+.assunto_icone.html{
+    background: var(--bg-html);
+}
+
+.assunto_icone.css{
+    background: var(--bg-css);
+}
+
+.assunto_icone.javascript{
+    background: var(--bg-Javascript);
+}
+
+.assunto_icone.acessibilidade{
+    background: var(--bg-Acessibilidade);
 }
 
 .assunto_icone img{
